@@ -1,0 +1,8 @@
+
+<h2>Product List</h2>
+<ul>
+  <li *ngFor="let p of products">
+    {{ p.name }} - {{ p.price }} - {{ p.quantity }}
+    <button *ngIf="p.id" (click)="deleteProduct(p.id)">Delete</button>
+  </li>
+</ul>

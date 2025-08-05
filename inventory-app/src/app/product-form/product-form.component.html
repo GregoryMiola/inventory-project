@@ -1,0 +1,10 @@
+
+<h2>Create Product</h2>
+
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <label>Nome:<input formControlName="name"></label><br>
+  <label>Descrição:<input formControlName="description"></label><br>
+  <label>Preço:<input type="number" formControlName="price">  </label><br>
+  <label>Quantidade:<input type="number" formControlName="quantity">  </label><br>
+  <button type="submit" [disabled]="form.invalid">Salvar</button>
+</form>

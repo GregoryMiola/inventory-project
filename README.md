@@ -7,9 +7,11 @@ This is a full-stack inventory management solution with:
 
 ## Project Structure
 
+```
 inventory-project/
-├── inventory-api/ # ASP.NET Core Backend
-└── inventory-app/ # Angular Frontend
+├── inventory-api/       # ASP.NET Core Backend
+└── inventory-app/       # Angular Frontend
+```
 
 ## How to Run
 
@@ -26,5 +28,5 @@ npm install
 ng serve
 ```
 
-Author
+## Author
 Gregory Miola Silva
